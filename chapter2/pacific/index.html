@@ -6,58 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pacific Trails Resort</title>
   </head>
+  <style>
+    header h1 {
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      padding: 0;
+    }
+
+    body main div h2 {
+      text-align: center;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+    }
+
+    main div p.first {
+      font-family: Arial;
+      font-size: 18px;
+      line-height: 1.5;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    main div ul {
+      font-family: Arial;
+      font-size: 15px;
+      line-height: 2.5;
+      padding-left: 80px;
+    }
+
+    main div p.second {
+      font-family: Arial;
+      font-size: 13px;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+    }
+  </style>
+
   <body>
-    <header
-      style="
-        text-align: center;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      "
-    >
+    <header>
       <h1>Pacific Trails Resort</h1>
     </header>
     <nav>
-      <ul
-        style="
-          display: flex;
-          justify-content: center;
-          list-style-type: none;
-          padding: 0;
-        "
-      >
-        <li style="margin: 0 10px"><a href="index.html">Home</a></li>
-        <li style="margin: 0 10px"><a href="yurts.html">Yurts</a></li>
-        <li style="margin: 0 10px"><a href="activities.html">Activities</a></li>
-        <li style="margin: 0 10px">
-          <a href="reservations.html">Reservations</a>
-        </li>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="yurts.html">Yurts</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
       </ul>
     </nav>
     <main>
       <div>
-        <h2 style="text-align: center">Enjoy Nature in Luxury</h2>
-        <p
-          style="
-            font-family: Arial;
-            font-size: 18px;
-            line-height: 1.5;
-            padding-left: 30px;
-            padding-right: 30px;
-          "
-        >
+        <h2>Enjoy Nature in Luxury</h2>
+        <p class="first">
           Pacific Trails Resort offers a special lodging experience on the
           California North Coast with panoramic views of the Pacific Ocean. Your
           stay at the Pacific Trails Resort includes a sumptuously appointed
           private yurt and a cooked-to-order breakfast each morning.
         </p>
 
-        <ul
-          style="
-            font-family: Arial;
-            font-size: 15px;
-            line-height: 2.5;
-            padding-left: 80px;
-          "
-        >
+        <ul>
           <li>
             Experience Special Lodging: On the beautiful North Coast of
             California, we offer a unique lodging experience that allows you to
@@ -82,14 +101,7 @@
       </div>
 
       <div>
-        <p
-          style="
-            font-family: Arial;
-            font-size: 13px;
-            line-height: 1.5;
-            text-align: center;
-          "
-        >
+        <p class="second">
           Pacific Trails Resort <br />
           2429 Azetec St SD CA 94523 <br />
           888-999-0000
@@ -97,7 +109,7 @@
       </div>
     </main>
 
-    <footer style="text-align: center">
+    <footer>
       <p>
         <small><i>Copyright &copy; 2023 Pacific Trails Resort</i></small>
       </p>
