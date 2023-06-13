@@ -1,0 +1,21 @@
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+body h1 {
+  display: flex;
+  justify-content: center;
+}
+
+dl dt {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
