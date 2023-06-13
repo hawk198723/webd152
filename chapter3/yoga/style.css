@@ -1,0 +1,42 @@
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+body h1 {
+  display: flex;
+  justify-content: center;
+}
+
+dl dt {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+main h2 {
+  display: flex;
+  justify-content: center;
+}
+main div p {
+  font-family: Arial;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 25px;
+}
+main dl dd {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+footer {
+  text-align: center;
+}
