@@ -1,0 +1,85 @@
+body {
+  background-color: #9bbfc1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  background-color: #30c026;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+body h1 {
+  display: flex;
+  justify-content: center;
+  background-color: #9bbfc1; /* bgc#002171 */
+  color: #704f3b; /* c#002171 */
+  background-image: url(yoga_images/lilyheader.jpg); /* bgi */
+  background-position: right; /* bgp */
+  background-repeat: no-repeat; /* bgr */
+  line-height: 300%; /* lh400% */
+  text-indent: 1em; /* txi */
+}
+
+dl dt {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+main h2 {
+  display: flex;
+  justify-content: center;
+  background-color: #e8559a;
+  color: #e9e624;
+}
+main div p {
+  font-family: Arial;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 25px;
+}
+main dl dd {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+footer {
+  text-align: center;
+}
+main ul div {
+  text-align: center;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.fa-ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.fa-li {
+  margin-right: 10px;
+}
+
+.my-image {
+  height: 20vh;
+}
+
+main p {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
