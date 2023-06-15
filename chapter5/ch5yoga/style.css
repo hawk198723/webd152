@@ -1,5 +1,18 @@
 body {
-  background-color: #9bbfc1;
+  background-color: #9bbfc1; /* bgc#9bbfc1 */
+  background-image: linear-gradient(to bottom, #fff, #90c7e3);
+  background-repeat: no-repeat; /*bgr*/
+  color: #414123; /* c#555 */
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* ffa */
+}
+
+#wrapper {
+  background-color: #cdeeb3;
+  box-shadow: 3px 3px 3px #333;
+  margin: auto;
+  min-width: 960px;
+  max-width: 2048px;
+  width: 80%;
 }
 
 nav ul {
