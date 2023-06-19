@@ -178,7 +178,7 @@ main div p.second {
 }
 @media (max-width: 334px) {
   header {
-    background-image: none;
+    background-image: none; /*bgin*/
   }
 }
 @media (min-width: 600px) {
@@ -203,7 +203,7 @@ main div p.second {
 @media (min-width: 1024px) {
   #wrapper {
     margin: auto; /*m:a*/
-    width: 80%;
+    width: 80%; /*w80%*/
     border: 1px solid #002171; /*bd1-solid-#002171*/
     box-shadow: 3px 3px 3px #002171;
   }
@@ -213,8 +213,8 @@ main div p.second {
   }
   @supports (display: grid) {
     nav ul {
-      flex-direction: column;
-      padding-top: 1em;
+      flex-direction: column; /*fld*/
+      padding-top: 1em; /*pt1em*/
     }
     .hero {
       grid-area: hero;
@@ -233,7 +233,7 @@ main div p.second {
       grid-area: footer;
     }
     #wrapper {
-      display: grid;
+      display: grid; /*dg*/
       grid-template: "header header" "nav hero" "nav main" "nav footer" /180px 1fr;
     }
   }
