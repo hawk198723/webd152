@@ -176,7 +176,7 @@ main div p.second {
   line-height: 1.5;
   text-align: center;
 }
-@media (max-width: 334px) {
+@media (max-width: 420px) {
   header {
     background-image: none; /*bgin*/
   }
