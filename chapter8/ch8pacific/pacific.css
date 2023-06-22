@@ -43,9 +43,8 @@ nav {
 }
 
 nav ul {
-  font-size: 1.2em; /*fz1.2em*/
   list-style-type: none; /*lstn*/
-  /margin: 0; /*m0*/
+  margin: 0; /*m0*/
   padding-left: 0; /*pl0*/
 }
 
