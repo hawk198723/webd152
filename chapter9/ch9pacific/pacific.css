@@ -44,7 +44,6 @@ nav {
 }
 
 nav ul {
-  font-size: 1.2em; /*fz1.2em*/
   list-style-type: none; /*lstn*/
   margin: 0; /*m0*/
   padding-left: 0; /*pl0*/
@@ -260,14 +259,11 @@ main div p.second {
     border-bottom: 2px solid #1b69b2; /*bb2-solid#1b69b2*/
   }
 
-  
-
   a {
     text-decoration: underline;
   }
 }
 @media (min-width: 601px) and (max-width: 1023px) {
-  
   #homehero,
   #yurthero,
   #activitylhero,
