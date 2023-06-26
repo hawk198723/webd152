@@ -165,10 +165,10 @@ main {
 }
 
 section {
-  padding-left: 2em; /*pl2em*/
-  padding-right: 2em; /*pr2em*/
-  width: 33%; /*w33%*/
+  flex: 1; /*flex*/
+  margin: 0 1em;
 }
+
 main div {
   margin-top: 20px; /*mt20*/
 }
@@ -202,6 +202,11 @@ input,
 textarea {
   margin-bottom: 0.5em;
 }
+.flow {
+  display: flex; /*df*/
+  flex-direction: row; /*fdr*/
+}
+
 @media (max-width: 600px) {
   header {
     background-image: none; /*bgin*/
@@ -264,11 +269,6 @@ textarea {
     text-decoration: underline;
   }
 
-  .flow {
-    display: flex; /*df*/
-    flex-direction: row; /*fdr*/
-  }
-
   form {
     display: grid;
     grid-template-columns: 6em 1fr;
@@ -288,10 +288,6 @@ textarea {
     background-size: auto; /*bgs:a*/
   }
 
-  .flow {
-    display: flex; /*df*/
-    flex-direction: row; /*fdr*/
-  }
   nav ul {
     display: flex; /*df*/
     flex-direction: row; /*fdr*/
@@ -340,14 +336,6 @@ textarea {
     border-bottom: none; /*bbn*/
   }
 
-  .flow {
-    display: flex; /*df*/
-    flex-direction: row; /*fdr*/
-  }
-  section {
-    flex: 1; /*flex*/
-    margin-right: 1em; /*mr*/
-  }
   @supports (display: grid) {
     nav ul {
       flex-direction: column; /*fld*/
