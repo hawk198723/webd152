@@ -203,10 +203,7 @@ input,
 textarea {
   margin-bottom: 0.5em;
 }
-.flow {
-  display: flex; /*df*/
-  flex-direction: row; /*fdr*/
-}
+
 
 video {
   float: right;
@@ -317,6 +314,10 @@ video {
   a {
     text-decoration: underline;
   }
+  .flow {
+    display: flex; /*df*/
+    flex-direction: row; /*fdr*/
+  }
   form {
     display: grid;
     grid-template-columns: 6em 1fr;
@@ -363,6 +364,14 @@ video {
 
   nav li {
     border-bottom: none; /*bbn*/
+  }
+  section {
+    flex: 1; /*flex*/
+    margin-right: 1em; /*mr*/
+  }
+  .flow {
+    display: flex; /*df*/
+    flex-direction: row; /*fdr*/
   }
 
   @supports (display: grid) {

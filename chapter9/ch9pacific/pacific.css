@@ -200,11 +200,6 @@ main div p.second {
   text-align: center;
 }
 
-.flow {
-  display: flex; /*df*/
-  flex-direction: row; /*fdr*/
-}
-
 @media (max-width: 600px) {
   header {
     background-image: none; /*bgin*/
@@ -289,6 +284,10 @@ main div p.second {
   a {
     text-decoration: underline;
   }
+  .flow {
+    display: flex; /*df*/
+    flex-direction: row; /*fdr*/
+  }
 }
 @media (min-width: 1024px) {
   #wrapper {
@@ -316,6 +315,10 @@ main div p.second {
   section {
     flex: 1; /*flex*/
     margin-right: 1em; /*mr*/
+  }
+  .flow {
+    display: flex; /*df*/
+    flex-direction: row; /*fdr*/
   }
   @supports (display: grid) {
     nav ul {
