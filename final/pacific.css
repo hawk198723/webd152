@@ -237,6 +237,7 @@ video {
   height: 200px;
   object-fit: cover;
 }
+
 @media (max-width: 681px) {
   header {
     background-image: none; /*bgin*/
@@ -350,6 +351,9 @@ video {
   }
   #gallery {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .storyflow img {
+    max-width: 100%;
   }
 }
 
